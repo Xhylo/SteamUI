@@ -1,15 +1,18 @@
 /*Imports*/
-@import "https://lolpowerluke.github.io/bd-themes/steamTheme/trivia.css";
+@import "https://xhylo.github.io/SteamUI/trivia.css";
   /*Friendlist*/
-  @import "https://lolpowerluke.github.io/bd-themes/steamTheme/friendlist.css";
+  @import "https://xhylo.github.io/SteamUI/friendlist.css";
   /*Servers*/
-  @import "https://lolpowerluke.github.io/bd-themes/steamTheme/serverChannels.css";
-  @import "https://lolpowerluke.github.io/bd-themes/steamTheme/serverBar.css";
+  @import "https://xhylo.github.io/SteamUI/serverChannels.css";
+  @import "https://xhylo.github.io/SteamUI/serverBar.css";
 
-  @import "https://lolpowerluke.github.io/bd-themes/steamTheme/smallUserPopout.css";
+  /*Settings*/
+  @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
+  /*User Popouts*/
+  @import "https://xhylo.github.io/SteamUI/smallUserPopout.css";
   /*Status*/
-  @import "https://lolpowerluke.github.io/bd-themes/steamTheme/statusPicker.css";
-  @import "https://lolpowerluke.github.io/bd-themes/steamTheme/BetterStatusIndicators.css";
+  @import "https://xhylo.github.io/SteamUI/statusPicker.css";
+  @import "https://xhylo.github.io/SteamUI/BetterStatusIndicators.css";
   /*Snippets*/
   @import "https://spinfish.github.io/css-snippets/snippets/filled-roles.css";
 /*Variables*/
