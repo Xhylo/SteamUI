@@ -1,0 +1,4 @@
+/*More space-efficient settings layout*/
+.sidebarRegion-1VBisG,
+.sidebarRegionScroller-FXiQOh {flex: 0 0 auto;}
+.contentColumnDefault-3eyv5o {max-width: unset;}
