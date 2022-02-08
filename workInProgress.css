@@ -1,14 +1,3 @@
-/**
-* @name Steam
-* @author Xyhlo, lolpowerluke
-* @version 1.0.0
-* @description Make your discord look like the steam client
-*/
-/*In order this theme to work you must have a plugin called Discord Experiments by Square 
-and disabled an option called Desktop Multi Account*/
-
-/*Imports*/
-@import "https://lolpowerluke.github.io/bd-themes/steamTheme/main.css";
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
 /*Hide "DISCORD" text in top-left corner.*/
