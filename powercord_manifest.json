@@ -2,7 +2,7 @@
     "name": "SteamUI",
     "author": "Xyhlo, lolpowerluke",
     "theme": "Steam.theme.css",
-    "license": "licenced",
+    "license": "MIT License",
     "version": "1.0.0",
     "description": "Make your discord look like the steam client"
 }
