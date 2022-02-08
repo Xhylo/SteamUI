@@ -3,5 +3,8 @@
 * @author Xyhlo, lolpowerluke
 * @version 1.0.0
 * @description Make your discord look like the steam client
+* @source https://github.com/Xhylo/SteamUI
 */
-@import url("https://xhylo.github.io/SteamUI/Steamwork.theme.css");
+
+/*Imports*/
+@import url("https://xhylo.github.io/SteamUI/main.css");
