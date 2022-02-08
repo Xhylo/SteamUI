@@ -1,18 +1,18 @@
 /*Imports*/
-@import "https://xhylo.github.io/SteamUI/trivia.css";
+@import "https://xhylo.github.io/SteamUI/source/trivia.css";
   /*Friendlist*/
-  @import "https://xhylo.github.io/SteamUI/friendlist.css";
+  @import "https://xhylo.github.io/SteamUI/source/friendlist.css";
   /*Servers*/
-  @import "https://xhylo.github.io/SteamUI/serverChannels.css";
-  @import "https://xhylo.github.io/SteamUI/serverBar.css";
+  @import "https://xhylo.github.io/SteamUI/source/serverChannels.css";
+  @import "https://xhylo.github.io/SteamUI/source/serverBar.css";
 
   /*Settings*/
   @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
   /*User Popouts*/
-  @import "https://xhylo.github.io/SteamUI/smallUserPopout.css";
+  @import "https://xhylo.github.io/SteamUI/source/smallUserPopout.css";
   /*Status*/
-  @import "https://xhylo.github.io/SteamUI/statusPicker.css";
-  @import "https://xhylo.github.io/SteamUI/BetterStatusIndicators.css";
+  @import "https://xhylo.github.io/SteamUI/source/statusPicker.css";
+  @import "https://xhylo.github.io/SteamUI/source/BetterStatusIndicators.css";
   /*Snippets*/
   @import "https://spinfish.github.io/css-snippets/snippets/filled-roles.css";
 /*Variables*/
