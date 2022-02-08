@@ -4,7 +4,28 @@
 * @version 1.0.0
 * @description Make your discord look like the steam client
 * @source https://github.com/Xhylo/SteamUI
+* @discord https://discord.gg/mfzJUkUaNS
 */
+/* In order this theme to work, you must download a plugin called Discord Experiments by Square and disable an option called Desktop Multi Accounts*/
+/*
 
+ __   __     _     _         _  _  ___  ____ ______ ___  
+ \ \ / /    | |   | |      _| || ||__ \|___ \____  / _ \ 
+  \ V /_   _| |__ | | ___ |_  __  _| ) | __) |  / / (_) |
+   > <| | | | '_ \| |/ _ \ _| || |_ / / |__ <  / / \__, |
+  / . \ |_| | | | | | (_) |_  __  _/ /_ ___) |/ /    / / 
+ /_/ \_\__, |_| |_|_|\___/  |_||_||____|____//_/    /_/  
+        __/ |                                                                      Discord: https://discord.gg/mfzJUkUaNS
+       |___/                                             
+
+  _       _                              _       _          _  _   _____ ____    __ _  _   
+ | |     | |                            | |     | |       _| || |_| ____|___ \  / /| || |  
+ | | ___ | |_ __   _____      _____ _ __| |_   _| | _____|_  __  _| |__   __) |/ /_| || |_ 
+ | |/ _ \| | '_ \ / _ \ \ /\ / / _ \ '__| | | | | |/ / _ \_| || |_|___ \ |__ <| '_ \__   _|
+ | | (_) | | |_) | (_) \ V  V /  __/ |  | | |_| |   <  __/_  __  _|___) |___) | (_) | | |  
+ |_|\___/|_| .__/ \___/ \_/\_/ \___|_|  |_|\__,_|_|\_\___| |_||_| |____/|____/ \___/  |_|  
+           | |                                                                             
+           |_|                                                                             
+/*
 /*Imports*/
 @import url("https://xhylo.github.io/SteamUI/main.css");
