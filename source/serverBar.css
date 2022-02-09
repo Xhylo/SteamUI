@@ -16,6 +16,10 @@
   flex-direction: column;
   row-gap: 8px;
 }
+.tutorialContainer-1pL9QS ~ div[style] {
+  height: 30px !important;
+  margin-bottom: 8px;
+}
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > ul {
   height: fit-content !important;
 }
@@ -25,6 +29,7 @@
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] {
   background-color: var(--background-secondary);
 }
+.tutorialContainer-1pL9QS ~ div[style] .listItem-3SmSlK,
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .listItem-3SmSlK {
   column-gap: 5px;
 }
@@ -75,6 +80,7 @@
   height: 30px;
   align-self: center;
 }
+.tutorialContainer-1pL9QS ~ div[style] + .listItem-3SmSlK,
 .tutorialContainer-1pL9QS + .listItem-3SmSlK {
   padding: 2px 0px;
   margin: 0 10px 0 12px;
@@ -89,6 +95,7 @@
 .listItem-3SmSlK + .wrapper-38slSD {
   margin-top: 4px;
 }
+.tutorialContainer-1pL9QS ~ div[style]:hover .listItemWrapper-3d87LP,
 #app-mount .tutorialContainer-2jwoiB:hover .listItem-3SmSlK .listItemWrapper-3d87LP,
 .tutorialContainer-2jwoiB + .listItem-3SmSlK:hover .listItemWrapper-3d87LP,
 .wrapper-38slSD > .listItem-3SmSlK:hover > div:nth-of-type(2)[data-dnd-name],
@@ -101,6 +108,7 @@
 .tutorialContainer-1pL9QS > .listItem-3SmSlK .listItemWrapper-3d87LP .childWrapper-1j_1ub {
   background-color: transparent;
 }
+.tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP,
 .guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-2jwoiB .listItemWrapper-3d87LP,
 .tutorialContainer-2jwoiB + .listItem-3SmSlK > .listItemWrapper-3d87LP,
 .tutorialContainer-1pL9QS > .listItem-3SmSlK .listItemWrapper-3d87LP {
@@ -137,11 +145,13 @@
   height: 30px;
   overflow: visible;
 }
+.wrapper-z5ab_q .item-2LIpTv,
 .pill-1NRFie .item-2LIpTv,
 .pill-L_aLMQ .item-2LIpTv,
 .pill-2RsI5Q .item-2LIpTv {
   height: 8px !important;
 }
+.wrapper-z5ab_q .item-2LIpTv[style*="height: 40px;"],
 .pill-1NRFie .item-2LIpTv[style*="height: 40px;"],
 .pill-L_aLMQ .item-2LIpTv[style*="height: 40px;"],
 .pill-2RsI5Q .item-2LIpTv[style*="height: 40px;"] {
@@ -153,6 +163,8 @@
   mask: none;
   border-radius: 0;
 }
+.tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP,
+.tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP *
 .guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-2jwoiB *,
 .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z *,
 .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z,
@@ -189,6 +201,10 @@
   width: 290px;
   x: -120;
 }
+.tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP, .tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP foreignObject {
+  width: 390px;
+  x: -170;
+}
 .tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIcon-3489FI,
 .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIcon-3489FI,
 .tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP foreignObject .childWrapper-1j_1ub svg {
@@ -211,10 +227,12 @@
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .folderIconWrapper-1oRIZr {
   border-radius: 5px;
 }
+.tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP, .tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP foreignObject .icon-3AqZ2e,
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .closedFolderIconWrapper-3tRb2d,
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .expandedFolderIconWrapper-3RwQpD {
   width: 48px;
 }
+.tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP, .tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP foreignObject .wrapper-3kah-n,
 .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] > .wrapper-28eC3z .wrapper-3kah-n {
   justify-content: flex-start;
 }
@@ -228,6 +246,8 @@
   column-gap: 10px;
   justify-content: flex-start;
 }
+/*Names*/
+#app-mount .tutorialContainer-1pL9QS ~ div[style] .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-3kah-n::after,
 #app-mount .tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z .circleIconButton-1VxDrg::after,
 #app-mount .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z .circleIconButton-1VxDrg::after,
 #app-mount .tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-3kah-n::after {
@@ -236,7 +256,7 @@
   width: calc(100% - 50px);
   height: 100%;
   font-size: 36px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 #app-mount .tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-3kah-n::after {
   margin-left: 30px;
@@ -252,6 +272,7 @@
   height: 18px;
   width: 128px;
 }
+#app-mount .tutorialContainer-1pL9QS ~ div[style] .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-3kah-n::after,
 .tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z .circleIconButton-1VxDrg::after,
 .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z .circleIconButton-1VxDrg::after,
 .tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-3kah-n::after,
@@ -265,6 +286,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+/*Badges*/
 #app-mount .listItem-3SmSlK .iconBadge-32fMme,
 #app-mount .listItem-3SmSlK .upperBadge-1V6Iyi {
   width: 10px;
@@ -276,6 +298,23 @@
 #app-mount .iconSizeSmol-qsFaRK {
   width: 16px;
   height: 16px;
+}
+.tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP .lowerBadge-3WTshO .numberBadge-37OJ3S {
+  width: fit-content !important;
+  height: 12px;
+  min-height: unset;
+  max-height: unset;
+  min-width: unset;
+  max-width: unset;
+  font-size: 10px;
+  padding: 0 3px !important;
+}
+.tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP .lowerBadge-3WTshO {
+  width: fit-content;
+  height: fit-content;
+  position: absolute;
+  top: -10px;
+  right: -10px;
 }
 /*bd Public Server Button*/
 #app-mount #bd-pub-button {
