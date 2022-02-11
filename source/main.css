@@ -7,6 +7,7 @@
   @import "https://xhylo.github.io/SteamUI/source/serverBar.css";
 
   /*Settings*/
+  @import "https://xhylo.github.io/SteamUI/source/userSettings.css";
   @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
   /*User Popouts*/
   @import "https://xhylo.github.io/SteamUI/source/smallUserPopout.css";
