@@ -2,3 +2,30 @@
 .sidebarRegion-1VBisG,
 .sidebarRegionScroller-FXiQOh {flex: 0 0 auto;}
 .contentColumnDefault-3eyv5o {max-width: unset;}
+/*Plugin and Theme list*/
+.bd-addon-list.bd-grid-view {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1px;
+  border: 1px solid var(--background-secondary-alt);
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: var(--background-secondary-alt);
+}
+.bd-addon-list.bd-grid-view > .bd-addon-card {
+  margin: 0;
+  flex: 1 1 400px;
+  border-radius: 0;
+  background-color: var(--background-primary);
+}
+.bd-addon-list .bd-addon-header {
+  background-color: var(--background-secondary);
+}
+.bd-addon-list > .bd-addon-card {
+  border: 1px solid var(--background-secondary-alt);
+}
+.bd-addon-list > .bd-addon-card {
+  background-color: var(--background-primary);
+}
