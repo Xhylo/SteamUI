@@ -23,7 +23,7 @@
 .bd-addon-list .bd-addon-header {
   background-color: var(--background-secondary);
 }
-.bd-addon-list > .bd-addon-card {
+.bd-addon-list:not(.bd-grid-view) > .bd-addon-card {
   border: 1px solid var(--background-secondary-alt);
 }
 .bd-addon-list > .bd-addon-card {
