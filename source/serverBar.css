@@ -5,6 +5,9 @@
 .guilds-2JjMmN .scroller-3X7KbA {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
 }
 .guildSeparator-a4uisj {
   width: 100%;
@@ -64,6 +67,9 @@
   column-gap: 10px;
   justify-content: flex-start;
 }
+.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK {
+    column-gap: 3px;
+}
 .tutorialContainer-2jwoiB,
 .tutorialContainer-2jwoiB + .listItem-3SmSlK,
 .tutorialContainer-1pL9QS > .listItem-3SmSlK {
@@ -88,34 +94,34 @@
 .guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-2jwoiB {
   margin-left: 12px;
   margin-right: 10px;
-  margin-bottom: 8px;
-  margin-top: 5px;
 }
 .listItem-3SmSlK + .wrapper-38slSD {
   margin-top: 4px;
 }
-.tutorialContainer-1pL9QS ~ div[style]:hover .listItemWrapper-3d87LP,
-#app-mount .tutorialContainer-2jwoiB:hover .listItem-3SmSlK .listItemWrapper-3d87LP,
-.tutorialContainer-2jwoiB + .listItem-3SmSlK:hover .listItemWrapper-3d87LP,
-.wrapper-38slSD > .listItem-3SmSlK:hover > div:nth-of-type(2)[data-dnd-name],
-#app-mount .listItem-3SmSlK:hover > div:nth-of-type(2) > [data-dnd-name],
+.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK:hover > div:nth-of-type(2),
+.tutorialContainer-1pL9QS ~ div[style]:hover .listItemWrapper-3d87LP, 
+#app-mount .tutorialContainer-2jwoiB:hover .listItem-3SmSlK .listItemWrapper-3d87LP, 
+.tutorialContainer-2jwoiB + .listItem-3SmSlK:hover .listItemWrapper-3d87LP, 
+.wrapper-38slSD > .listItem-3SmSlK:hover > div:nth-of-type(2)[data-dnd-name], 
+#app-mount .listItem-3SmSlK:hover > div:nth-of-type(2) > [data-dnd-name], 
 .tutorialContainer-1pL9QS > .listItem-3SmSlK .listItemWrapper-3d87LP:hover {
-  background-color: var(--background-secondary-alt);
+    background-color: var(--background-secondary-alt);
 }
 .tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIconButton-1VxDrg,
 .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIconButton-1VxDrg,
 .tutorialContainer-1pL9QS > .listItem-3SmSlK .listItemWrapper-3d87LP .childWrapper-1j_1ub {
   background-color: transparent;
 }
-.tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP,
-.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-2jwoiB .listItemWrapper-3d87LP,
-.tutorialContainer-2jwoiB + .listItem-3SmSlK > .listItemWrapper-3d87LP,
+.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK > div:nth-of-type(2),
+.tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP, 
+.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-2jwoiB .listItemWrapper-3d87LP, 
+.tutorialContainer-2jwoiB + .listItem-3SmSlK > .listItemWrapper-3d87LP, 
 .tutorialContainer-1pL9QS > .listItem-3SmSlK .listItemWrapper-3d87LP {
-  background-color: var(--background-secondary);
-  transition: background-color .5s;
-  transition-delay: .1s;
-  border-radius: 5px;
-  padding: 5px;
+    background-color: var(--background-secondary);
+    transition: background-color .5s;
+    transition-delay: .1s;
+    border-radius: 5px;
+    padding: 5px;
 }
 .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name], 
 .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] {
@@ -162,6 +168,8 @@
   mask: none;
   border-radius: 0;
 }
+.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK > div:nth-of-type(2),
+.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK > div:nth-of-type(2) *,
 .tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP,
 .tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP *,
 .guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-2jwoiB *,
@@ -200,9 +208,10 @@
   width: 290px;
   x: -120;
 }
-.tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP, .tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP foreignObject {
-  width: 390px;
-  x: -170;
+.tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP, .tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP foreignObject,
+.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK > div:nth-of-type(2) foreignObject {
+    width: 405px;
+    x: -180;
 }
 .tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIcon-3489FI,
 .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIcon-3489FI,
@@ -226,11 +235,13 @@
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .folderIconWrapper-1oRIZr {
   border-radius: 5px;
 }
+.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK > div:nth-of-type(2) foreignObject .childWrapper-1j_1ub,
 .tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP foreignObject .icon-3AqZ2e,
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .closedFolderIconWrapper-3tRb2d,
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .expandedFolderIconWrapper-3RwQpD {
   width: 48px;
 }
+.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK > div:nth-of-type(2) foreignObject .wrapper-3kah-n,
 .tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP, .tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP foreignObject .wrapper-3kah-n,
 .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] > .wrapper-28eC3z .wrapper-3kah-n {
   justify-content: flex-start;
@@ -246,6 +257,7 @@
   justify-content: flex-start;
 }
 /*Names*/
+.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK > div:nth-of-type(2) foreignObject .wrapper-3kah-n::after,
 #app-mount .tutorialContainer-1pL9QS ~ div[style] .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-3kah-n::after,
 #app-mount .tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z .circleIconButton-1VxDrg::after,
 #app-mount .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z .circleIconButton-1VxDrg::after,
@@ -271,6 +283,7 @@
   height: 18px;
   width: 128px;
 }
+.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK > div:nth-of-type(2) foreignObject .wrapper-3kah-n::after,
 #app-mount .tutorialContainer-1pL9QS ~ div[style] .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-3kah-n::after,
 .tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z .circleIconButton-1VxDrg::after,
 .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z .circleIconButton-1VxDrg::after,
