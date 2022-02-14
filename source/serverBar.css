@@ -80,8 +80,7 @@
   height: 30px;
   align-self: center;
 }
-.tutorialContainer-1pL9QS ~ div[style] + .listItem-3SmSlK,
-.tutorialContainer-1pL9QS + .listItem-3SmSlK {
+.tutorialContainer-1pL9QS ~ .listItem-3SmSlK:nth-last-child(5) {
   padding: 2px 0px;
   margin: 0 10px 0 12px;
   width: calc(100% - 22px);
