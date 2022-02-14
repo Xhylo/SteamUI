@@ -261,6 +261,13 @@
   margin-left: -240px;
   width: calc(100% + 240px);
 }
+.sidebar-1tnWFu + .container-2cd8Mz > .container-ZMc96U {
+    margin-left: -240px;
+    width: calc(100% + 185px);
+}
+.sidebar-1tnWFu + .container-2cd8Mz {
+    overflow: visible;
+}
 /*Search popup*/
 #app-mount .elevationBorderHigh-3drnJX {
   background-color: var(--background-primary);
