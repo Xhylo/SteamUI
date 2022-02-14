@@ -9,8 +9,12 @@
   /*Settings*/
   @import "https://xhylo.github.io/SteamUI/source/userSettings.css";
   @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
-  /*User Popouts*/
-  @import "https://xhylo.github.io/SteamUI/source/smallUserPopout.css";
+  /*Popouts*/
+    /*Menus and other popouts*/
+    @import "https://xhylo.github.io/SteamUI/source/popouts.css";
+    /*User Popouts*/
+    @import "https://xhylo.github.io/SteamUI/source/smallUserPopout.css";
+    @import "https://xhylo.github.io/SteamUI/source/BigUserPopout.css";
   /*Status*/
   @import "https://xhylo.github.io/SteamUI/source/statusPicker.css";
   @import "https://xhylo.github.io/SteamUI/source/BetterStatusIndicators.css";
