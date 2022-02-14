@@ -32,6 +32,7 @@
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] {
   background-color: var(--background-secondary);
 }
+.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK,
 .tutorialContainer-1pL9QS ~ div[style] .listItem-3SmSlK,
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .listItem-3SmSlK {
   column-gap: 5px;
@@ -66,9 +67,6 @@
   display: flex;
   column-gap: 10px;
   justify-content: flex-start;
-}
-.guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK {
-    column-gap: 3px;
 }
 .tutorialContainer-2jwoiB,
 .tutorialContainer-2jwoiB + .listItem-3SmSlK,
