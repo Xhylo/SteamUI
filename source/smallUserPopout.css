@@ -1,14 +1,90 @@
 /*Small User Popout*/
 .userPopout-2j1gM4 {
-    background-color: var(--background-primary);
-    border: 1px solid var(--background-primary);
-    box-shadow: inset 0 0 4px var(--background-secondary-alt);
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  grid-template-rows: auto 1fr auto;
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-primary);
+  box-shadow: inset 0 0 4px var(--background-secondary-alt);
+}
+.userPopout-2j1gM4 > div {
+  grid-column: 1/3;
+}
+.userPopout-2j1gM4 > .headerTop-3GPUSF {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  padding: 15px 10px 10px 10px;
+  margin: 2px 2px 0 0;
+  border-radius: 0 8px 0 0;
+  height: 118px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+  box-sizing: border-box;
+}
+.userPopout-2j1gM4 .headerTop-3GPUSF .clickable-1knRMS {
+  margin: 0;
+  width: 22px;
+  height: 22px;
+}
+.userPopout-2j1gM4 .headerTop-3GPUSF .headerText-1-WmDq {
+  margin-left: 2px;
+}
+.userPopout-2j1gM4 .profileBadges-2pItdR {
+  position: relative;
+  grid-row: 2/3;
+  inset: 0;
+  height: fit-content;
+  justify-content: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  width: 150px;
+  gap: 2px;
+}
+.userPopout-2j1gM4 .body-2wLx-E {
+  padding-top: 10px;
+}
+.userPopout-2j1gM4 .footer-3naVBw,
+.userPopout-2j1gM4 .bodyInnerWrapper-2bQs1k {
+  background-color: var(--backgroung-tertiary);
+}
+/*Avatar*/
+.userPopout-2j1gM4 > .avatarWrapper-eenWra {
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  left: unset;
+  top: unset;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+}
+.userPopout-2j1gM4 > .avatarWrapper-eenWra .avatarHoverTarget-1zzfRL {
+  width: 92px;
+  height: 92px;
+}
+.userPopout-2j1gM4 > .avatarWrapper-eenWra > * {
+  justify-self: center;
+  align-self: center;
+  inset: unset;
+}
+.userPopout-2j1gM4 .avatar-2Vndt_,
+.userPopout-2j1gM4 .StatusEverywhere-avatar-userPopout {
+  background: transparent;
+  border-color: transparent;
 }
 /*Banner*/
-.headerNormal-3Zn_yu {
-    margin: 2px 2px 0 2px;
-    border-radius: 8px 8px 0 0;
-    overflow: hidden;
+.userPopout-2j1gM4 > .headerNormal-3Zn_yu {
+  position: absolute;
+  width: calc(100% - 6px);
+  height: 118px;
+  margin: 2px 2px 0 2px;
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+.userPopout-2j1gM4 .banner-1YaD3N,
+.userPopout-2j1gM4 .UserBackgrounds-banner-container {
+  height: 100%;
 }
 /*Role Stuff*/
 .rolesList-3uZoaa {
