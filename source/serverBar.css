@@ -12,6 +12,9 @@
 .guildSeparator-a4uisj {
   width: 100%;
 }
+.tutorialContainer-1pL9QS > .listItem-3SmSlK {
+  width: 100%;
+}
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > ul,
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD,
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] {
@@ -26,6 +29,7 @@
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > ul {
   height: fit-content !important;
 }
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name]::after,
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name]::after {
   width: 134px;
 }
@@ -96,6 +100,7 @@
 .listItem-3SmSlK + .wrapper-38slSD {
   margin-top: 4px;
 }
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] .listItem-3SmSlK:hover > div:nth-of-type(2)[data-dnd-name],
 .guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK:hover > div:nth-of-type(2),
 .tutorialContainer-1pL9QS ~ div[style]:hover .listItemWrapper-3d87LP, 
 #app-mount .tutorialContainer-2jwoiB:hover .listItem-3SmSlK .listItemWrapper-3d87LP, 
@@ -111,6 +116,7 @@
 .tutorialContainer-1pL9QS > .listItem-3SmSlK .listItemWrapper-3d87LP .childWrapper-1j_1ub {
   background-color: transparent;
 }
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name],
 .guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK > div:nth-of-type(2),
 .tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP, 
 .guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-2jwoiB .listItemWrapper-3d87LP, 
@@ -122,7 +128,7 @@
     border-radius: 5px;
     padding: 5px;
 }
-.wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name], 
+.wrapper-38slSD .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name], 
 .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] {
   background-color: var(--background-primary);
   transition: background-color .5s;
@@ -179,13 +185,17 @@
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z *:not(.expandedFolderIconWrapper-3RwQpD),
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z,
 .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] > .wrapper-28eC3z *:not(img),
-.listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] > .wrapper-28eC3z {
+.listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] > .wrapper-28eC3z,
+.listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z *:not(img),
+.listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z {
   width: 100%;
 }
+.listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z foreignObject,
 .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] > .wrapper-28eC3z foreignObject {
   width: 365px;
   x: -160;
 }
+.guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z foreignObject,
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] > .wrapper-28eC3z foreignObject {
   width: 400px;
   x: -175;
@@ -209,8 +219,8 @@
 }
 .tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP, .tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP foreignObject,
 .guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK > div:nth-of-type(2) foreignObject {
-    width: 405px;
-    x: -180;
+  width: 405px;
+  x: -180;
 }
 .tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIcon-3489FI,
 .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIcon-3489FI,
@@ -219,7 +229,7 @@
   height: 30px;
 }
 .guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK > div:nth-of-type(2) foreignObject .childWrapper-1j_1ub .favoriteIcon-2kWmTP {
-    height: 34px;
+  height: 34px;
 }
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .expandedFolderIconWrapper-3RwQpD {
   background-color: transparent;
@@ -228,6 +238,7 @@
   height: 40px;
 }
 .guilds-2JjMmN .scroller-3X7KbA > [aria-label] > .wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .folderIconWrapper-1oRIZr,
+.listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .childWrapper-1j_1ub,
 .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] > .wrapper-28eC3z .childWrapper-1j_1ub {
   width: 48px;
 }
@@ -245,6 +256,7 @@
 }
 .guilds-2JjMmN .scroller-3X7KbA > .tutorialContainer-1pL9QS + .listItem-3SmSlK > div:nth-of-type(2) foreignObject .wrapper-3kah-n,
 .tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP, .tutorialContainer-1pL9QS ~ div[style] .listItemWrapper-3d87LP foreignObject .wrapper-3kah-n,
+.listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name] > .wrapper-28eC3z .wrapper-3kah-n,
 .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] > .wrapper-28eC3z .wrapper-3kah-n {
   justify-content: flex-start;
 }
@@ -252,7 +264,7 @@
 .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z foreignObject .circleIconButton-1VxDrg,
 .tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-3kah-n .childWrapper-1j_1ub,
 .tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP,
-.wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name],
+.listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name],
 .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name] {
   display: flex;
   column-gap: 10px;
@@ -278,7 +290,7 @@
   height: 100%;
   width: calc(100% - 60px);
 }
-.wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name]::after,
+.listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name]::after,
 .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name]::after {
   content: attr(data-dnd-name);
   margin-left: 25px;
@@ -290,7 +302,7 @@
 .tutorialContainer-2jwoiB .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z .circleIconButton-1VxDrg::after,
 .tutorialContainer-2jwoiB + .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-28eC3z .circleIconButton-1VxDrg::after,
 .tutorialContainer-1pL9QS .listItem-3SmSlK .listItemWrapper-3d87LP .wrapper-3kah-n::after,
-.wrapper-38slSD > .listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name]::after,
+.listItem-3SmSlK > div:nth-of-type(2)[data-dnd-name]::after,
 .listItem-3SmSlK > div:nth-of-type(2) > [data-dnd-name]::after {
   position: absolute;
   pointer-events: none;
