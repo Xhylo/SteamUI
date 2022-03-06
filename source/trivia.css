@@ -88,11 +88,6 @@
   margin: 0;
   padding: 10px;
 }
-/*Hide inbox and help button*/
-.toolbar-3_r2xA .iconWrapper-2awDjA:nth-last-child(2),
-[href="https://support.discord.com"] {
-  display: none;
-}
 /*avatars in userpopouts*/
 .StatusEverywhere-avatar-chatAvatar,
 #app-mount .StatusEverywhere-avatar-userPopout,
