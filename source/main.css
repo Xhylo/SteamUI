@@ -20,6 +20,8 @@
   /*Snippets*/
   @import "https://spinfish.github.io/css-snippets/snippets/filled-roles.css";
 /*Variables*/
+.theme-light,
+.theme-dark,
 :root {
   --background-primary: #171a21;
   --background-secondary: #1b2838;
