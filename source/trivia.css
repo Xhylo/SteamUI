@@ -266,6 +266,7 @@
   margin-top: 49px;
 }
 /*Chat Header*/
+.sidebar-1tnWFu + .container-2cd8Mz > .container-ZMc96U,
 #app-mount .title-31SJ6t {
   -webkit-app-region: drag;
   background-color: var(--background-primary);
@@ -273,6 +274,9 @@
   margin-left: -490px;
   margin-right: 300px;
   width: calc(100% + 170px);
+}
+.sidebar-1tnWFu + .container-2cd8Mz > .container-ZMc96U .inviteToolbar-2k2nqz .divider-q3P9HC {
+  display: none;
 }
 .sidebar-1tnWFu + .container-2cd8Mz > .container-ZMc96U {
   margin-left: -240px;
