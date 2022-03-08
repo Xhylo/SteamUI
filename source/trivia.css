@@ -285,6 +285,12 @@
 .sidebar-1tnWFu + .container-2cd8Mz {
   overflow: visible;
 }
+.callContainer-HtHELf {
+  background-color: var(--background-primary);
+}
+.gradientTop-1UBZHm {
+  display: none;
+}
 .callContainer-HtHELf,
 .base-2jDfDU {
   overflow: visible;
