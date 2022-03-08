@@ -278,10 +278,6 @@
 .sidebar-1tnWFu + .container-2cd8Mz > .container-ZMc96U .inviteToolbar-2k2nqz .divider-q3P9HC {
   display: none;
 }
-.sidebar-1tnWFu + .container-2cd8Mz > .container-ZMc96U {
-  margin-left: -240px;
-  width: calc(100% + 185px);
-}
 .sidebar-1tnWFu + .container-2cd8Mz {
   overflow: visible;
 }
