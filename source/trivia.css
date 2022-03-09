@@ -262,8 +262,9 @@
 #app-mount .privateChannels-oVe7HL .searchBar-3TnChZ:hover {
   width: 200px;
 }
-.sidebar-1tnWFu{
+.sidebar-1tnWFu {
   margin-top: 49px;
+  margin-bottom: 49px;
 }
 /*Chat Header*/
 .sidebar-1tnWFu + .container-2cd8Mz > .container-ZMc96U,
@@ -272,8 +273,28 @@
   background-color: var(--background-primary);
   padding-left: 150px;
   margin-left: -490px;
-  margin-right: 300px;
+  margin-right: 0px;
+  padding-right: 0;
   width: calc(100% + 170px);
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.tabBody-2dgbAs {
+  max-width: calc(100vw - 440px);
+}
+.sidebar-1tnWFu + .container-2cd8Mz > .container-ZMc96U .tabBar-ra-EuL {
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+}
+#app-mount .children-3xh0VB .tabBar-ra-EuL .item-3XjbnG {
+  margin: 0;
+}
+.children-3xh0VB {
+  flex: 0 1 auto;
+}
+.children-3xh0VB * {
+  -webkit-app-region: no-drag;
 }
 .sidebar-1tnWFu + .container-2cd8Mz > .container-ZMc96U .inviteToolbar-2k2nqz .divider-q3P9HC {
   display: none;
